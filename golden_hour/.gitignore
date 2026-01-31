@@ -43,3 +43,13 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Secrets
+android/app/*.json
+.env
+
+# Firebase / Google secrets
+android/app/google-services.json
+android/app/client_secret_*.json
+.env
+
